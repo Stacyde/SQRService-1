@@ -3,13 +3,13 @@ package ru.netology.sqr;
 public class SQRService {
 
     public int calculateSqrt(int a, int b) {
-        int sum = 0;
+        int count = 0;
         for (int i = 10; i <= 99; i++) {
             if ((i * i >= a) & (i * i <= b)) {
-                sum += 1;
+                count += 1;
             }
         }
-        System.out.println(sum);
+        System.out.println(count);
         return sum;
     }
 }
