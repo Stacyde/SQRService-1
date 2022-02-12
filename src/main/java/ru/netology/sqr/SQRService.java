@@ -10,7 +10,7 @@ public class SQRService {
             }
         }
         System.out.println(count);
-        return sum;
+        return count;
     }
 }
 
